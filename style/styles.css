@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Fasthand&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook&display=swap'); 
+
 @import url("/style/nav.css");
 @import url("/style/main.css");
 @import url("/style/footer.css");
 @import url("/style/mediaqueries.css");
+@import url("/style/carousel.css");
 
 * {
     margin: 0;
@@ -28,4 +32,9 @@ body {
 
  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+}
+
+.font-gothic {
+    font-family: 'UnifrakturCook', cursive;
+ 
 }

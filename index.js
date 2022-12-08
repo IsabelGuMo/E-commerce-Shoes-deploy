@@ -12,8 +12,9 @@ products.forEach((product) => {
     container.innerHTML += `
         <div class="card  mt-3" style="width: 25rem; height: 45rem;">
             <img class="image card-img-top" src="${image}" alt="${name}">
+            <img class="image card-img frame" src="./assets/imagenes/photo-frame/horror-frame-png.png" alt="frame">
         <div class="card-body">
-        <h2 class="name">${name}</h2>
+        <h2 class="font-gothic name">${name}</h2>
         <p class="description">${description}</p>
         <h3 class="price">${price} EUR</h3>
         <button class="btn btn-dark" onclick="addProductCart(${ref})">Agregar al carrito</button>
